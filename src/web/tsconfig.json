@@ -1,0 +1,12 @@
+{
+    "extends": "../../tsconfig.json",
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "useDefineForClassFields": false,
+        "noImplicitAny": false,
+        "paths": {
+            "@shared/*": ["../shared/*"]
+        }
+    },
+    "include": ["./src", "../shared"]
+}
