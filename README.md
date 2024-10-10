@@ -40,16 +40,19 @@ This project is a custom game engine designed to handle text-based adventures an
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/game-engine.git
-    cd game-engine
+    git clone https://github.com/Dion-Streefkerk/AdventureTextEngine.git
+    cd AdventureTextEngine
     ```
-
-2. Install dependencies:
+2. navigate the repo code
+    ```bash
+    code .
+    ```
+    
+3. Install dependencies:
     ```bash
     npm install
     ```
 
-3. Configure your `.env` file with the necessary environment variables (API keys, database connection, etc.).
 
 ## Getting Started
 
@@ -58,13 +61,13 @@ This project is a custom game engine designed to handle text-based adventures an
 Start the development API server:
 
 ```bash
-npm run dev-api
+npm run dev:api
 ```
 Running the Development Web Server
 In another terminal, start the development web server:
 
 ```bash
-npm run dev-web
+npm run dev:web
 ```
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
@@ -85,8 +88,3 @@ To learn more about the technologies used in this project, check out the followi
 
 ---
 
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcomed.
-
-Feel free to open issues or pull requests on the [GitHub repository](https://github.com/Dion-Streefkerk/game-engine).
